@@ -37,7 +37,7 @@ function connect()
  * @return array
  */
 function select($table,$fields, $where='', $order='',$limit='') {
-	//连接pdo
+	//连接pdosddsa
 	$pdo = connect();
 	//创建SQL语句
 	$sql = 'SELECT ';
